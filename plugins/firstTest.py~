@@ -1,0 +1,7 @@
+from streamresolver.plugnplay.interfaces import StreamResolver
+from streamresolver.plugnplay import Plugin
+
+
+class OneeightyuploadResolver(Plugin, StreamResolver):
+    implements = [StreamResolver]
+    name = "180upload"
